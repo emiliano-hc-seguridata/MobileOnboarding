@@ -1,3 +1,5 @@
+require("babel-core/register");
+require("babel-polyfill");
 let onBoarding;
 let session;
 
