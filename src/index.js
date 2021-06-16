@@ -15,7 +15,7 @@ function createOnBoarding() {
   });
 }
 
-function createSession() {
+  function createSession() {
   return onBoarding.createSession("ALL");
 }
 
