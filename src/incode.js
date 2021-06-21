@@ -16,7 +16,7 @@ const incode = window.OnBoarding.create(
 		},
 	    translations: {
 	      tutorial: {
-	        front1: "Texto personalizado",
+	        front1: "Seguridata Onboarding",
 	        front2: "Scan ID",
 	        back1: "Now scan the ",
 	        back2: "back side ",
