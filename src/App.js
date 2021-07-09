@@ -73,7 +73,7 @@ function Selfie({ session, onSuccess, showError }) {
   return <div ref={containerRef}></div>;
 }
 
-function Conference({ session, onSuccess, showError }) {
+/*function Conference({ session, onSuccess, showError }) {
   const [status, setStatus] = useState();
   const containerRef = useRef();
 
@@ -101,7 +101,7 @@ function Conference({ session, onSuccess, showError }) {
   }
 
   return <div ref={containerRef}></div>;
-}
+}*/
 
 export default function App() {
   const [session, setSession] = useState();
@@ -131,7 +131,6 @@ export default function App() {
       <BackId session={session} onSuccess={goNext} showError={showError} />
       <ProcessId session={session} onSuccess={goNext} />
       <Selfie session={session} onSuccess={goNext} showError={showError} />
-      <Conference session={session} onSuccess={goNext} showError={showError} />
     </Steps>
   );
 }
